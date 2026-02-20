@@ -7,11 +7,12 @@ across the 6 RESPEC dimensions. Saves results to CSV for later analysis.
 Usage:
     python 1_annotation_interface.py --rater "Alice" --input conversations.csv
     python 1_annotation_interface.py --rater "Bob"   --input conversations.csv
+
+Input CSV must have exactly 50 rows with columns: id, text.
 """
 
 import argparse
 import csv
-import json
 import os
 import textwrap
 from datetime import datetime
@@ -31,43 +32,7 @@ SKILL_DESCRIPTIONS = {
 
 SCALE = {1: "Very Poor", 2: "Poor", 3: "Neutral/Average", 4: "Good", 5: "Excellent"}
 
-# ── Synthetic example conversations (replace with your real data) ─────────────
-
-EXAMPLE_CONVERSATIONS = [
-    {
-        "id": "conv_001",
-        "text": (
-            "Doctor: So what brings you in today?\n"
-            "Patient: I've been having these headaches almost every day for two weeks.\n"
-            "Doctor: Okay. How long do they last?\n"
-            "Patient: A few hours usually. It's really affecting my work.\n"
-            "Doctor: We'll do some tests. Come back in a week."
-        ),
-    },
-    {
-        "id": "conv_002",
-        "text": (
-            "Doctor: I can see you've been dealing with these headaches for a while — that sounds exhausting.\n"
-            "Patient: It really is. I'm struggling to get through the day.\n"
-            "Doctor: I completely understand. Let's figure this out together. Can you tell me more "
-            "about when they tend to happen — morning, evening, after certain activities?\n"
-            "Patient: Mostly in the afternoon, after staring at screens.\n"
-            "Doctor: That's a helpful clue. There are a few likely causes I want to walk you through, "
-            "and then we'll decide together what makes sense to try first."
-        ),
-    },
-    {
-        "id": "conv_003",
-        "text": (
-            "Patient: I'm really worried about these chest pains.\n"
-            "Doctor: When did they start?\n"
-            "Patient: About three days ago. Could it be my heart?\n"
-            "Doctor: Probably not. You're young. Take an antacid and see if it helps.\n"
-            "Patient: Should I be monitoring anything?\n"
-            "Doctor: Just come back if it gets worse."
-        ),
-    },
-]
+REQUIRED_ROW_COUNT = 50
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -107,16 +72,31 @@ def get_notes() -> str:
 
 
 def load_conversations(path: str) -> list[dict]:
-    """Load from CSV with columns: id, text. Falls back to built-in examples."""
-    if not path or not os.path.exists(path):
-        print(f"\n  ℹ  File '{path}' not found — using built-in example conversations.\n")
-        return EXAMPLE_CONVERSATIONS
+    """Load exactly 50 conversations from a CSV with columns: id, text."""
+    if not os.path.exists(path):
+        raise FileNotFoundError(
+            f"Input file not found: '{path}'\n"
+            "Please provide a valid CSV with columns: id, text."
+        )
 
     convs = []
     with open(path, newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
+        missing = [col for col in ("id", "text") if col not in (reader.fieldnames or [])]
+        if missing:
+            raise ValueError(
+                f"CSV is missing required column(s): {missing}\n"
+                "Expected columns: id, text."
+            )
         for row in reader:
             convs.append({"id": row["id"], "text": row["text"]})
+
+    if len(convs) != REQUIRED_ROW_COUNT:
+        raise ValueError(
+            f"Expected exactly {REQUIRED_ROW_COUNT} conversations, "
+            f"but found {len(convs)} in '{path}'."
+        )
+
     return convs
 
 
@@ -142,7 +122,7 @@ def annotate(rater: str, conversations: list[dict], output_dir: str = "annotatio
     total = len(conversations)
 
     print_header(f"VPS Annotation Tool  |  Rater: {rater}")
-    print(f"\n  You will score {total} conversation(s) across 6 RESPEC skills.")
+    print(f"\n  You will score {total} conversations across 6 RESPEC skills.")
     print("  Use scale 1 (Very Poor) → 5 (Excellent).")
     input("\n  Press Enter to begin...\n")
 
@@ -182,7 +162,7 @@ def annotate(rater: str, conversations: list[dict], output_dir: str = "annotatio
 def main():
     parser = argparse.ArgumentParser(description="VPS Human Annotation Interface")
     parser.add_argument("--rater",  required=True, help="Rater name or ID (e.g. 'Alice')")
-    parser.add_argument("--input",  default=None,  help="Path to conversations CSV (id, text columns)")
+    parser.add_argument("--input",  required=True, help="Path to conversations CSV (id, text columns) — must have exactly 50 rows")
     parser.add_argument("--output", default="annotations", help="Output directory for annotation CSVs")
     args = parser.parse_args()
 
