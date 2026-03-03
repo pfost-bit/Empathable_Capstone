@@ -1,0 +1,835 @@
+,encounter_index,dialogue,doctor_text,patient_text,Respect,Support,Education,Planning,Engagement,Communication
+169,169,"Doctor: Hi. How are you doing, sir? 
+Patient: Hi. I am doing fine. 
+Doctor: The nurse told me that you are on disability from work now. What happened? 
+Patient: I got hurt at work and now I am on disability. 
+Doctor: What did you do for work? How long ago was your injury? 
+Patient: I worked on the pipeline. The accident was five years ago.
+Doctor: Which condition led to the disability? 
+Patient: I don't know really. I sent in all the notes for my doctor for evaluation and they approved the disability. 
+Doctor: Okay. Do you live alone or with family? 
+Patient: I live with my wife. 
+Doctor: Are you a smoke or have you ever been? 
+Patient: I used to smoke. I quit years ago. 
+Doctor: How long ago did you quit? 
+Patient: Oh, about twenty years ago. 
+Doctor: How many years did you smoke? And how much did you smoke?
+Patient: Probably twenty years. I was up to two packs a day. I feel way better now. 
+Doctor: That's great. Any use of alcohol or illicit drugs? 
+Patient: Nope. 
+Doctor: What do you do for fun? Do you have any hobbies? 
+Patient: I don't really do much these days. Work was my hobby. 
+Doctor: Okay.","Hi. How are you doing, sir? 
+ The nurse told me that you are on disability from work now. What happened? 
+ What did you do for work? How long ago was your injury? 
+ Which condition led to the disability? 
+ Okay. Do you live alone or with family? 
+ Are you a smoke or have you ever been? 
+ How long ago did you quit? 
+ How many years did you smoke? And how much did you smoke?
+ That's great. Any use of alcohol or illicit drugs? 
+ What do you do for fun? Do you have any hobbies? 
+ Okay.","Hi. I am doing fine. 
+ I got hurt at work and now I am on disability. 
+ I worked on the pipeline. The accident was five years ago.
+ I don't know really. I sent in all the notes for my doctor for evaluation and they approved the disability. 
+ I live with my wife. 
+ I used to smoke. I quit years ago. 
+ Oh, about twenty years ago. 
+ Probably twenty years. I was up to two packs a day. I feel way better now. 
+ Nope. 
+ I don't really do much these days. Work was my hobby. 
+",33.1,43.0,52.7,58.1,49.9,54.3
+96,96,"Doctor: Do you have any past or present medical conditions? 
+Patient: No.","Do you have any past or present medical conditions? 
+",No.,33.3,26.5,47.5,55.1,45.3,60.7
+37,37,"Doctor: Are you married? 
+Patient: I'm divorced. 
+Doctor: So, do you live alone? Or do you have kids? 
+Patient: I live with my girlfriend, and we have a kid together. I also have three other kids from my former wife. 
+Doctor: Do you smoke? 
+Patient: I used to smoke. But I, I've quit like fifteen years ago. 
+Doctor: What about alcohol? 
+Patient: Yeah, I drink beer. Around one to two beers a day. 
+Doctor: Are you working? 
+Patient: I'm retired right now, but I used to work in an iron company.","Are you married? 
+ So, do you live alone? Or do you have kids? 
+ Do you smoke? 
+ What about alcohol? 
+ Are you working? 
+","I'm divorced. 
+ I live with my girlfriend, and we have a kid together. I also have three other kids from my former wife. 
+ I used to smoke. But I, I've quit like fifteen years ago. 
+ Yeah, I drink beer. Around one to two beers a day. 
+ I'm retired right now, but I used to work in an iron company.",41.3,44.6,47.6,53.7,49.4,48.8
+100,100,"Doctor: Have you been taking anything for high blood pressure? 
+Patient: Yeah, I started taking Toprol and uh the one that starts with an A. I forget what it's called. 
+Doctor: Hm are you talking about Avalide? 
+Patient: Oh right, yeah that's the one.","Have you been taking anything for high blood pressure? 
+ Hm are you talking about Avalide? 
+","Yeah, I started taking Toprol and uh the one that starts with an A. I forget what it's called. 
+ Oh right, yeah that's the one.",45.8,49.4,59.6,53.6,58.3,63.4
+160,160,"Doctor: Where do you feel the most pain? 
+Patient: I'd have to say at the heels of my feet. I spend a lot of time on my feet at work. 
+Doctor: I see. What kind of shoes do you normally wear to work? 
+Patient: Regular tennis shoes. 
+Doctor: Are they cushioned? 
+Patient: Eh not really, but they're pretty durable. 
+Doctor: I'd advise getting an orthotic for your shoes to help with the heel pain and resting your feet when you're home. In the meantime, I'd like for you to see a specialist to make sure nothing else is going on. 
+Patient: Alright, I'm good with that plan. 
+Doctor: Are you having any other problems? Joint pain, difficulty walking, nausea, vomiting, or other symptoms? 
+Patient: No, just heel pain for now.","Where do you feel the most pain? 
+ I see. What kind of shoes do you normally wear to work? 
+ Are they cushioned? 
+ I'd advise getting an orthotic for your shoes to help with the heel pain and resting your feet when you're home. In the meantime, I'd like for you to see a specialist to make sure nothing else is going on. 
+ Are you having any other problems? Joint pain, difficulty walking, nausea, vomiting, or other symptoms? 
+","I'd have to say at the heels of my feet. I spend a lot of time on my feet at work. 
+ Regular tennis shoes. 
+ Eh not really, but they're pretty durable. 
+ Alright, I'm good with that plan. 
+ No, just heel pain for now.",34.4,48.3,56.1,58.3,47.5,55.7
+45,45,"Doctor: Where do you live?
+Patient: I live in a board and care. It is a nice small care home with some very nice and supportive people. It is just next to the Safeway on Village Drive. 
+Doctor: Nice. It looks like you love living there. 
+Patient: Oh yes. I feel very relaxed there. 
+Doctor: Did you consume alcohol in any way? 
+Patient: No Sir. 
+Doctor: Any tobacco consumption? 
+Patient: Never in my life. 
+Doctor: Did you ever try any kind of illicit drugs? Any I V drugs? 
+Patient: No. I have always kept myself away from all those things.","Where do you live?
+ Nice. It looks like you love living there. 
+ Did you consume alcohol in any way? 
+ Any tobacco consumption? 
+ Did you ever try any kind of illicit drugs? Any I V drugs? 
+","I live in a board and care. It is a nice small care home with some very nice and supportive people. It is just next to the Safeway on Village Drive. 
+ Oh yes. I feel very relaxed there. 
+ No Sir. 
+ Never in my life. 
+ No. I have always kept myself away from all those things.",48.3,58.2,38.1,43.1,54.7,57.0
+63,63,"Doctor: Now, let's talk about your family history. Have any of them had cancer? 
+Patient: Actually, yes, I know a few family members have, but I can't remember who had what kind. 
+Doctor: That's okay. What about heart disease? Can you remember anyone having that? 
+Patient: Yes, that rings some bells. 
+Doctor: Thank you, has anyone in your family had a joint replacement? 
+Patient: I know that a lot of my family has had arthritis in the past, but I can't remember whether or not they had joint replacements, honestly.","Now, let's talk about your family history. Have any of them had cancer? 
+ That's okay. What about heart disease? Can you remember anyone having that? 
+ Thank you, has anyone in your family had a joint replacement? 
+","Actually, yes, I know a few family members have, but I can't remember who had what kind. 
+ Yes, that rings some bells. 
+ I know that a lot of my family has had arthritis in the past, but I can't remember whether or not they had joint replacements, honestly.",52.7,62.1,59.7,52.4,64.1,56.1
+77,77,"Doctor: Tell me a little bit about your family history. 
+Patient: My dad and grandpa both had type two diabetes. My son is struggling with type one diabetes at the moment.  
+Doctor: I'm sorry to hear that. Does anyone in your family have heart problems? 
+Patient: No. 
+Doctor: How about cancer? 
+Patient: Two of my cousins had breast cancer.","Tell me a little bit about your family history. 
+ I'm sorry to hear that. Does anyone in your family have heart problems? 
+ How about cancer? 
+","My dad and grandpa both had type two diabetes. My son is struggling with type one diabetes at the moment.  
+ No. 
+ Two of my cousins had breast cancer.",33.8,51.6,58.7,49.7,52.6,51.7
+35,35,"Doctor: How's he feeling today? 
+Guest_family: I think this is the worst he's been feeling all week. 
+Doctor: I'm sorry to hear that he hasn't been feeling well. What symptoms has he been having? 
+Guest_family: He's been very congested as of late and seems to be coughing a lot more than usual. He was also running a fever yesterday.  
+Doctor: I see. What was his temperature? 
+Guest_family: The thermometer was reading one hundred and one degrees Fahrenheit. Does he need to go to the hospital? 
+Doctor: Let me evaluate and see what we can do for him today. 
+Guest_family: Thank you, doctor. 
+Doctor: I suspect that he has an upper respiratory infection, possible pertussis. Is he still experiencing apnea?","How's he feeling today? 
+Guest_family: I think this is the worst he's been feeling all week. 
+ I'm sorry to hear that he hasn't been feeling well. What symptoms has he been having? 
+Guest_family: He's been very congested as of late and seems to be coughing a lot more than usual. He was also running a fever yesterday.  
+ I see. What was his temperature? 
+Guest_family: The thermometer was reading one hundred and one degrees Fahrenheit. Does he need to go to the hospital? 
+ Let me evaluate and see what we can do for him today. 
+Guest_family: Thank you, doctor. 
+ I suspect that he has an upper respiratory infection, possible pertussis. Is he still experiencing apnea?",,52.8,61.9,69.4,62.4,57.9,70.9
+62,62,"Doctor: Any major surgeries in the past?
+Patient: Not too many, but a catheter was put in my heart.
+Doctor: Oh, so cardiac catherization, correct?
+Patient: Yep.","Any major surgeries in the past?
+ Oh, so cardiac catherization, correct?
+","Not too many, but a catheter was put in my heart.
+ Yep.",32.3,52.6,59.6,56.8,52.2,66.3
+43,43,"Doctor: How old are you? 
+Patient: I am seventy three.  
+Doctor: Are you right handed or left handed? 
+Patient: Right. 
+Doctor: So, I see the chief complaint is memory loss and cognitive decline. Tell me what exactly happened, and how did you notice the symptoms? Let me document that today is January twelfth of nineteen ninety five.
+Guest_family: We noticed it the week prior to Thanksgiving last year in nineteen ninety four. We have a family tradition where we play a game and this time, we were taking her to Vail, Colorado to play ""Murder She Wrote"" at one of our family gatherings. She was chosen to be the assassin. 
+Doctor: Okay. 
+Guest_family: Kids played a trick with her and they hid a plastic gun, a toy gun in her luggage. As she walked through the security, the alarm went off and like within seconds she was all surrounded, and everyone was like panicked. There was so much panic, they searched her and interrogated her and what not. Eventually she and her family made it to the flight, and she seemed unusually frustrated and disoriented by all that. Previously, if any such incident would have happened in the past, she would just have like chuckled and brushed it off. And we all would have sat together and laughed about it. This time it was different. 
+Doctor: I can see why she was frustrated. Anyone can be in such situations. 
+Guest_family: When we were in Colorado, she seemed slow. She had difficulty reading her lines to her part when we were playing that game. She needed assistance to complete the whole game. 
+Doctor: Was she slurring?
+Guest_family: Nope. 
+Doctor: Was there any difficulty with vision? Or any weakness? 
+Guest_family: Nope. Nothing that we noticed. 
+Doctor: How was it after returning from there? 
+Guest_family: She returned to work. She used to work in a local florist shop. She returned on the Monday following Thanksgiving. And she had difficulty.
+Patient:  I was not able to take on with my usual task of flower arrangements or dealing with the cash at the cash register. 
+Guest_family: She quit the next day, and she never went back. 
+Doctor: How was it after that? 
+Guest_family: She seemed to be doing fine and stable throughout November and December, and we were visiting a local neurologist as well, who was evaluating her. He did a few blood tests and did uh, M R I of the brain. He gave us all clear. He said there's nothing there. 
+Doctor: Yeah, I see the working diagnosis of dementia of the Alzheimer's Type. When did these symptoms increase? Like when did you started noticing them more? 
+Guest_family: One or two weeks ago, so end of December nineteen ninety four, she got lost in her own home. She was getting more sensitive and started saying that she is becoming a liability for everyone, which is not at all like her. Her walking was affected. She started walking like a bended form and also started veering to the right. She also did not recognize the location of where people were talking to her.","How old are you? 
+ Are you right handed or left handed? 
+ So, I see the chief complaint is memory loss and cognitive decline. Tell me what exactly happened, and how did you notice the symptoms? Let me document that today is January twelfth of nineteen ninety five.
+Guest_family: We noticed it the week prior to Thanksgiving last year in nineteen ninety four. We have a family tradition where we play a game and this time, we were taking her to Vail, Colorado to play ""Murder She Wrote"" at one of our family gatherings. She was chosen to be the assassin. 
+ Okay. 
+Guest_family: Kids played a trick with her and they hid a plastic gun, a toy gun in her luggage. As she walked through the security, the alarm went off and like within seconds she was all surrounded, and everyone was like panicked. There was so much panic, they searched her and interrogated her and what not. Eventually she and her family made it to the flight, and she seemed unusually frustrated and disoriented by all that. Previously, if any such incident would have happened in the past, she would just have like chuckled and brushed it off. And we all would have sat together and laughed about it. This time it was different. 
+ I can see why she was frustrated. Anyone can be in such situations. 
+Guest_family: When we were in Colorado, she seemed slow. She had difficulty reading her lines to her part when we were playing that game. She needed assistance to complete the whole game. 
+ Was she slurring?
+Guest_family: Nope. 
+ Was there any difficulty with vision? Or any weakness? 
+Guest_family: Nope. Nothing that we noticed. 
+ How was it after returning from there? 
+Guest_family: She returned to work. She used to work in a local florist shop. She returned on the Monday following Thanksgiving. And she had difficulty.
+ How was it after that? 
+Guest_family: She seemed to be doing fine and stable throughout November and December, and we were visiting a local neurologist as well, who was evaluating her. He did a few blood tests and did uh, M R I of the brain. He gave us all clear. He said there's nothing there. 
+ Yeah, I see the working diagnosis of dementia of the Alzheimer's Type. When did these symptoms increase? Like when did you started noticing them more? 
+Guest_family: One or two weeks ago, so end of December nineteen ninety four, she got lost in her own home. She was getting more sensitive and started saying that she is becoming a liability for everyone, which is not at all like her. Her walking was affected. She started walking like a bended form and also started veering to the right. She also did not recognize the location of where people were talking to her.","I am seventy three.  
+ Right. 
+  I was not able to take on with my usual task of flower arrangements or dealing with the cash at the cash register. 
+Guest_family: She quit the next day, and she never went back. 
+",49.8,54.6,52.8,54.3,51.4,54.6
+5,5,"Doctor: Okay, tell me what's going on and what's brought you here. 
+Guest_family: I am her mother. She has this blister on the side of her head right above her ear, here. I was just worried and concerned about my baby. 
+Doctor: How old is the baby? When did you first notice it?
+Guest_family: She is just fourteen days old. Let me tell you from the beginning. On Friday, when I was taking her for a bath, I noticed a blister near her umbilicus area. We went to our doctor on Saturday, and they did a test. 
+Doctor: Did you get the test result?
+Guest_family: I got it today. Here is the report. 
+Doctor: Okay, let me have a look. It says she is having a growing M R S A.
+Guest_family: Yeah, I've been diagnosed with that too. And I am on medications. I had it on my buttock area. 
+Doctor: Okay, so you know about it, and I don't have to explain it more.
+Guest_family: Yeah. 
+Doctor: So how is the blister on the umbilicus now?
+Guest_family: She has been doing good. We put on some bacitracin ointment, and it almost healed up. But today I noticed that another small blister on her head. It really scared me, and I did not want to take any chance. That's why I reached out to the Infectious Disease center. I know it is private. But still, I don't want to take any chance with my baby's health. I called the center directly and they asked me to come to the hospital. 
+Doctor: You did good. I will start the treatment. How are her eating and sleeping habits?
+Guest_family: She hasn't missed any of her meals. She is taking around two ounces of milk in every feed. I don't think I have any issues with her eating or sleeping. 
+Doctor: Did she have any fever?
+Guest_family: Not that I noticed. 
+Doctor: Has she been lethargic or crying more than normal?
+Guest_family: No. 
+Doctor: Any other changes in her daily routine that you might have noticed?
+Guest_family: No, I didn't notice any changes.","Okay, tell me what's going on and what's brought you here. 
+Guest_family: I am her mother. She has this blister on the side of her head right above her ear, here. I was just worried and concerned about my baby. 
+ How old is the baby? When did you first notice it?
+Guest_family: She is just fourteen days old. Let me tell you from the beginning. On Friday, when I was taking her for a bath, I noticed a blister near her umbilicus area. We went to our doctor on Saturday, and they did a test. 
+ Did you get the test result?
+Guest_family: I got it today. Here is the report. 
+ Okay, let me have a look. It says she is having a growing M R S A.
+Guest_family: Yeah, I've been diagnosed with that too. And I am on medications. I had it on my buttock area. 
+ Okay, so you know about it, and I don't have to explain it more.
+Guest_family: Yeah. 
+ So how is the blister on the umbilicus now?
+Guest_family: She has been doing good. We put on some bacitracin ointment, and it almost healed up. But today I noticed that another small blister on her head. It really scared me, and I did not want to take any chance. That's why I reached out to the Infectious Disease center. I know it is private. But still, I don't want to take any chance with my baby's health. I called the center directly and they asked me to come to the hospital. 
+ You did good. I will start the treatment. How are her eating and sleeping habits?
+Guest_family: She hasn't missed any of her meals. She is taking around two ounces of milk in every feed. I don't think I have any issues with her eating or sleeping. 
+ Did she have any fever?
+Guest_family: Not that I noticed. 
+ Has she been lethargic or crying more than normal?
+Guest_family: No. 
+ Any other changes in her daily routine that you might have noticed?
+Guest_family: No, I didn't notice any changes.",,51.6,63.7,62.6,61.4,56.6,69.4
+142,142,"Doctor: Your condition is improved, and you look pretty stable. 
+Patient: Yeah, I feel much better.","Your condition is improved, and you look pretty stable. 
+","Yeah, I feel much better.",70.6,70.1,63.1,72.4,66.9,82.8
+42,42,"Doctor: How old are you? What brings you here today? 
+Patient: I am fifty six years old. I am here for this pain in my legs. It hurts mostly in the night. 
+Doctor: Does changing positions helps you? 
+Patient: Yeah, it helps. Whenever I stand it just goes away. 
+Doctor: Is it only in your legs or it starts there and goes somewhere else as well? 
+Patient: It normally starts in my hips and then it goes down my leg and sometimes into my ankles as well. 
+Doctor: When did you first notice it? 
+Patient: It all started after taking that medication. What is it called? Something with L? Yeah, Lipitor. 
+Doctor: Have you ever noticed any night sweats? 
+Patient: Sometimes I do sweat at night. 
+Doctor: Any other issue? Anything else going on? Your body temperature is a little on the higher end. 
+Patient: Yeah, I do feel feverish and have nausea as well. 
+Doctor: How are your sugar numbers? 
+Patient: They have been low for quite some time. You know, I have started going to Genesis in Wichita and I've been doing water aerobics. And you know what? Surprisingly, I have lost thirty pounds. 
+Doctor: That's good. How much is your fasting sugar? 
+Patient: Anywhere between a hundred to one hundred and twenty. I check them one and a half hours after meals as well. They are, they have been one hundred and eighty five regularly. 
+Doctor: Okay. 
+Patient: Yeah. I have a request to make. I will be coming for my diabetic checkup in one month. Can we do all the labs before that? 
+Doctor: Yeah, sure, that's a great idea. I should tell my assistant and they will call you for labs before your appointment for diabetes checkup. 
+Doctor: Anything else going on? How is everything else? 
+Patient: I tried to control my cholesterol with diet, but it didn't help. I cannot keep on dieting. It is just not my thing. I have started eating more meat though. I feel full after that.","How old are you? What brings you here today? 
+ Does changing positions helps you? 
+ Is it only in your legs or it starts there and goes somewhere else as well? 
+ When did you first notice it? 
+ Have you ever noticed any night sweats? 
+ Any other issue? Anything else going on? Your body temperature is a little on the higher end. 
+ How are your sugar numbers? 
+ That's good. How much is your fasting sugar? 
+ Okay. 
+ Yeah, sure, that's a great idea. I should tell my assistant and they will call you for labs before your appointment for diabetes checkup. 
+ Anything else going on? How is everything else? 
+","I am fifty six years old. I am here for this pain in my legs. It hurts mostly in the night. 
+ Yeah, it helps. Whenever I stand it just goes away. 
+ It normally starts in my hips and then it goes down my leg and sometimes into my ankles as well. 
+ It all started after taking that medication. What is it called? Something with L? Yeah, Lipitor. 
+ Sometimes I do sweat at night. 
+ Yeah, I do feel feverish and have nausea as well. 
+ They have been low for quite some time. You know, I have started going to Genesis in Wichita and I've been doing water aerobics. And you know what? Surprisingly, I have lost thirty pounds. 
+ Anywhere between a hundred to one hundred and twenty. I check them one and a half hours after meals as well. They are, they have been one hundred and eighty five regularly. 
+ Yeah. I have a request to make. I will be coming for my diabetic checkup in one month. Can we do all the labs before that? 
+ I tried to control my cholesterol with diet, but it didn't help. I cannot keep on dieting. It is just not my thing. I have started eating more meat though. I feel full after that.",48.2,47.3,59.8,57.6,57.0,59.1
+22,22,"Doctor: Do you have diabetes or blood pressure problems? 
+Patient: Yes, I have hypertension but no diabetes. 
+Doctor: Alright.","Do you have diabetes or blood pressure problems? 
+ Alright.","Yes, I have hypertension but no diabetes. 
+",36.8,35.1,82.6,64.2,53.9,67.7
+170,170,"Patient: In the past I was very very fat! Actually, I was morbidly obese. I also had high blood pressure, but after my surgery it got resolved. 
+Doctor: So, everything is okay now?
+Patient: Yeah.","So, everything is okay now?
+","In the past I was very very fat! Actually, I was morbidly obese. I also had high blood pressure, but after my surgery it got resolved. 
+ Yeah.",21.5,34.8,35.0,25.9,31.2,46.9
+182,182,"Doctor: Do you have a family history of any medical conditions, such as diabetes or heart disease? 
+Patient: No, nothing.","Do you have a family history of any medical conditions, such as diabetes or heart disease? 
+","No, nothing.",33.3,25.9,47.1,53.9,45.9,51.5
+127,127,"Doctor: Good morning, ma'am. 
+Patient: Good morning, doctor. 
+Doctor: How are you feeling today? 
+Patient: Honestly, I'm feeling a little bit better. 
+Doctor: That's good to hear, ma'am.","Good morning, ma'am. 
+ How are you feeling today? 
+ That's good to hear, ma'am.","Good morning, doctor. 
+ Honestly, I'm feeling a little bit better. 
+",78.1,81.0,71.1,64.8,70.1,85.9
+10,10,"Doctor: Where are you having numbness? 
+Patient: In my left hand. 
+Doctor: And no other symptoms? Any coughing or chest pain?
+Patient: No. Just that weird feeling in my left hand.
+Doctor: Any visual changes or motor changes. 
+Patient: Nothing. 
+Doctor: Great. What about any phlegm or shortness of breath?
+Patient: Nope.","Where are you having numbness? 
+ And no other symptoms? Any coughing or chest pain?
+ Any visual changes or motor changes. 
+ Great. What about any phlegm or shortness of breath?
+","In my left hand. 
+ No. Just that weird feeling in my left hand.
+ Nothing. 
+ Nope.",36.0,28.7,55.0,51.3,50.7,40.3
+181,181,"Doctor: Okay, let's review your family history.
+Patient: Ready when you are.
+Doctor: Does anyone in your family have high blood pressure or high cholesterol?
+Patient: Both my parents have high blood pressure.
+Doctor: Are they being treated for it?
+Patient: Um yes. Oh they also have E T.
+Doctor: Do any of your siblings have it as well?
+Patient: No.
+Doctor: Does anyone in your family have an autoimmune disorder.
+Patient: Hm. Give me a second to think. Does lupus count?
+Doctor: Yes. Who do you know that has lupus?
+Patient: My cousin.
+Doctor: On your mom or dad's side?
+Patient: Uh mom.","Okay, let's review your family history.
+ Does anyone in your family have high blood pressure or high cholesterol?
+ Are they being treated for it?
+ Do any of your siblings have it as well?
+ Does anyone in your family have an autoimmune disorder.
+ Yes. Who do you know that has lupus?
+ On your mom or dad's side?
+","Ready when you are.
+ Both my parents have high blood pressure.
+ Um yes. Oh they also have E T.
+ No.
+ Hm. Give me a second to think. Does lupus count?
+ My cousin.
+ Uh mom.",54.4,51.8,56.5,57.3,57.4,56.2
+129,129,"Doctor: So, do you live in the area? 
+Patient: Yes, my husband and I have lived here for a long time. He died a few years back. 
+Doctor: I'm sorry to hear that. 
+Patient: It's alright. 
+Doctor: Do you smoke or drink? 
+Patient: No, I don't. 
+Doctor: Do you use any illicit drugs or substances? 
+Patient: No, I don't do anything like that.","So, do you live in the area? 
+ I'm sorry to hear that. 
+ Do you smoke or drink? 
+ Do you use any illicit drugs or substances? 
+","Yes, my husband and I have lived here for a long time. He died a few years back. 
+ It's alright. 
+ No, I don't. 
+ No, I don't do anything like that.",37.6,50.3,39.4,48.2,50.2,48.9
+183,183,"Doctor: Good morning, young lady. Is this your mother? 
+Patient: Yes, this is my mommy. 
+Doctor: Good morning, mom. Can you tell me more about your daughter, please?
+Guest_family: Good morning, doctor. Well, she's thirteen now, but she's had feet problems all her life. 
+Doctor: What's been the problem with her feet?
+Guest_family: Well, she had bilateral feet corrections when she was a year old. 
+Doctor: Okay, how has she been since that procedure?
+Guest_family: Well, just look at her heel, doctor. 
+Doctor: Yes, I see. She has pretty significant calcaneal valgus deformity. 
+Patient: What does that mean, doctor? 
+Doctor: Your heel is out of alignment, sweetie. Do you have pain?
+Patient: Yes, I have a lot of pain, doctor. 
+Guest_family: What can we do about this, doctor? 
+Doctor: Well, given all of her symptoms, I think we should do a calcaneal osteotomy and Achilles lengthening procedure. 
+Guest_family: What does that procedure entail? 
+Doctor: Well, in short, we'll go in there and straighten everything out, and get everything lined back up. 
+Guest_family: What's the risk of infection with the surgery, sir? 
+Doctor: Actually, it's less than one percent, so it's extremely low.
+Guest_family: How is this possible, doctor?
+Doctor: We use antibiotics to control for infection the entire time. 
+Guest_family: That's great. Will she be asleep for this procedure? 
+Doctor: Yes, we'll use anesthesia the entire time. She won't feel a thing. 
+Guest_family: Okay, that's good too. What about after the procedure? What's the protocol?
+Doctor: Well, I'll need your help. We have to be strict about her being nonweightbearing for six weeks at minimum. 
+Guest_family: Will she need a brace too?
+Doctor: Yes, at least for six months, but if she does everything I ask of her, it will be only six months. 
+Guest_family: Okay, yes, I think we should do the procedure. What do you think, honey?
+Patient: Yes, I want to get back to playing sports with my friends.
+Doctor: The other risks include bleeding; changes in sensation in most of extremity; hardware failure; need for later hardware removal; possible nonunion; possible failure to correct all the deformity; and need for other surgical procedures.  I would not worry about these issues, though. It is quite rare. So, looking at her radiographs, the spinal arch is definitely collapsed. I think you guys are making the right decision.","Good morning, young lady. Is this your mother? 
+ Good morning, mom. Can you tell me more about your daughter, please?
+Guest_family: Good morning, doctor. Well, she's thirteen now, but she's had feet problems all her life. 
+ What's been the problem with her feet?
+Guest_family: Well, she had bilateral feet corrections when she was a year old. 
+ Okay, how has she been since that procedure?
+Guest_family: Well, just look at her heel, doctor. 
+ Yes, I see. She has pretty significant calcaneal valgus deformity. 
+ Your heel is out of alignment, sweetie. Do you have pain?
+ Well, given all of her symptoms, I think we should do a calcaneal osteotomy and Achilles lengthening procedure. 
+Guest_family: What does that procedure entail? 
+ Well, in short, we'll go in there and straighten everything out, and get everything lined back up. 
+Guest_family: What's the risk of infection with the surgery, sir? 
+ Actually, it's less than one percent, so it's extremely low.
+Guest_family: How is this possible, doctor?
+ We use antibiotics to control for infection the entire time. 
+Guest_family: That's great. Will she be asleep for this procedure? 
+ Yes, we'll use anesthesia the entire time. She won't feel a thing. 
+Guest_family: Okay, that's good too. What about after the procedure? What's the protocol?
+ Well, I'll need your help. We have to be strict about her being nonweightbearing for six weeks at minimum. 
+Guest_family: Will she need a brace too?
+ Yes, at least for six months, but if she does everything I ask of her, it will be only six months. 
+Guest_family: Okay, yes, I think we should do the procedure. What do you think, honey?
+ The other risks include bleeding; changes in sensation in most of extremity; hardware failure; need for later hardware removal; possible nonunion; possible failure to correct all the deformity; and need for other surgical procedures.  I would not worry about these issues, though. It is quite rare. So, looking at her radiographs, the spinal arch is definitely collapsed. I think you guys are making the right decision.","Yes, this is my mommy. 
+ What does that mean, doctor? 
+ Yes, I have a lot of pain, doctor. 
+Guest_family: What can we do about this, doctor? 
+ Yes, I want to get back to playing sports with my friends.
+",50.7,65.8,62.7,62.7,57.3,68.5
+116,116,"Doctor: I mean, I am so happy to see your report today, your blood pressure looks much better. That's amazing given your past few visits your B P was out of control and even with changing your medications we were having tough time bringing it down. 
+Patient: Yeah, I feel much better, I read about my condition and it is called something as um refraction or--
+Doctor: Refractory hypertension.
+Patient: Oh yeah that!
+Doctor: But the good news is that it is getting better. 
+Patient: Yes.
+Doctor: Last time we talked about seeing the internal medicine doctor there at your senior center, right?
+Patient: Yes, I made an appointment last week, um, no week before that, but I completely forgot about it.
+Doctor: Hm, okay we need to reschedule that. 
+Patient: Yes, I will do it today.
+Doctor: Okay, your reports look fine. G F R is below sixty percent, that's a good sign.  Overall, Miss K, you look better, but we need to reschedule your appointment with the Internist. That's kind of important.
+Patient: Okay, I will do that. Thank you!
+Doctor: You are welcome.","I mean, I am so happy to see your report today, your blood pressure looks much better. That's amazing given your past few visits your B P was out of control and even with changing your medications we were having tough time bringing it down. 
+ Refractory hypertension.
+ But the good news is that it is getting better. 
+ Last time we talked about seeing the internal medicine doctor there at your senior center, right?
+ Hm, okay we need to reschedule that. 
+ Okay, your reports look fine. G F R is below sixty percent, that's a good sign.  Overall, Miss K, you look better, but we need to reschedule your appointment with the Internist. That's kind of important.
+ You are welcome.","Yeah, I feel much better, I read about my condition and it is called something as um refraction or--
+ Oh yeah that!
+ Yes.
+ Yes, I made an appointment last week, um, no week before that, but I completely forgot about it.
+ Yes, I will do it today.
+ Okay, I will do that. Thank you!
+",51.3,65.4,66.1,61.8,56.4,75.3
+148,148,"Doctor: Do you smoke cigarettes?
+Patient: Yes. 
+Doctor: Do you drink alcohol or use recreational drugs? 
+Patient: Yes, I have been in and out of treatment. I am not doing so well with staying clean. 
+Doctor: What substances do you use? 
+Patient: I drink, and I did some coke today. I have been in treatment for heroin and alcohol.","Do you smoke cigarettes?
+ Do you drink alcohol or use recreational drugs? 
+ What substances do you use? 
+","Yes. 
+ Yes, I have been in and out of treatment. I am not doing so well with staying clean. 
+ I drink, and I did some coke today. I have been in treatment for heroin and alcohol.",34.6,28.9,40.7,46.0,45.4,42.3
+189,189,"Doctor: Do you drink? 
+Patient: Yes, I do take two or four beers in a day. 
+Doctor: Do you smoke? 
+Patient: Oh yeah, I'm a smoker. I take around one to two packs of cigarettes each day.","Do you drink? 
+ Do you smoke? 
+","Yes, I do take two or four beers in a day. 
+ Oh yeah, I'm a smoker. I take around one to two packs of cigarettes each day.",18.2,20.1,45.7,44.1,30.3,49.9
+58,58,"Guest_family: He is coughing for one week now.
+Doctor: How about any congestion? Is it one week or more?
+Guest_family: No did I say that? I meant two to three weeks. I am so worried. He is just one year.  
+Doctor: Don't worry let me see, can you tell me everything from the beginning?
+Guest_family: Sure. It started off as a congestion, but then he started coughing about a week ago and it is getting worse.
+Doctor: Okay, what else?
+Guest_family: Actually, he had Pop Can just three days ago and I never found the top of that and was wondering if he had swallowed that.
+Doctor: It is possible, have you seen any change in his breathing?
+Guest_family: His breathing has not gotten worse since that happened.
+Doctor: Any fever?
+Guest_family: No. No fever.
+Doctor: Okay.","How about any congestion? Is it one week or more?
+Guest_family: No did I say that? I meant two to three weeks. I am so worried. He is just one year.  
+ Don't worry let me see, can you tell me everything from the beginning?
+Guest_family: Sure. It started off as a congestion, but then he started coughing about a week ago and it is getting worse.
+ Okay, what else?
+Guest_family: Actually, he had Pop Can just three days ago and I never found the top of that and was wondering if he had swallowed that.
+ It is possible, have you seen any change in his breathing?
+Guest_family: His breathing has not gotten worse since that happened.
+ Any fever?
+Guest_family: No. No fever.
+ Okay.",,43.2,62.9,58.5,55.1,50.1,66.0
+111,111,"Doctor: So, what stomach symptoms are you experiencing?
+Patient: I feel an intense burning in my throat. 
+Doctor: When do you feel this?
+Patient: It really hurts after eating food, especially junk food. 
+Doctor: That's pretty consistent with reflux disease. 
+Patient: Ah, yes. 
+Doctor: I got your survey results back as well, let's discuss them.
+Patient: Absolutely, please, what does it show.
+Doctor: According to your answers, it looks like you have depression as well.","So, what stomach symptoms are you experiencing?
+ When do you feel this?
+ That's pretty consistent with reflux disease. 
+ I got your survey results back as well, let's discuss them.
+ According to your answers, it looks like you have depression as well.","I feel an intense burning in my throat. 
+ It really hurts after eating food, especially junk food. 
+ Ah, yes. 
+ Absolutely, please, what does it show.
+",42.5,49.3,61.4,45.4,52.6,52.3
+20,20,"Doctor: Hello, sir. How are you doing?
+Patient: I am doing well, thanks. Just trying to come to you more regularly to make sure my lungs and heart are okay. 
+Doctor: That's great. The previous notes said that you quit smoking. Are you still off?
+Patient: Yes, I quit in nineteen ninety six. I come yearly to the doctor's office to make sure that the damage I did to my lungs is monitored. 
+Doctor: You have a great attitude. I appreciate when patient's take their health into their own hands. We can only do so much, but it is up to the patient to bring themselves in. 
+Patient: Yeah. I smoked for a long time and I know it was bad for me. It was just the norm back in the day. 
+Doctor: Do you drink at all?
+Patient: I do. Only occasionally.","Hello, sir. How are you doing?
+ That's great. The previous notes said that you quit smoking. Are you still off?
+ You have a great attitude. I appreciate when patient's take their health into their own hands. We can only do so much, but it is up to the patient to bring themselves in. 
+ Do you drink at all?
+","I am doing well, thanks. Just trying to come to you more regularly to make sure my lungs and heart are okay. 
+ Yes, I quit in nineteen ninety six. I come yearly to the doctor's office to make sure that the damage I did to my lungs is monitored. 
+ Yeah. I smoked for a long time and I know it was bad for me. It was just the norm back in the day. 
+ I do. Only occasionally.",50.3,57.8,45.3,42.6,52.6,62.3
+108,108,"Doctor: History of any illnesses, surgeries, or hospitalizations? 
+Patient: I dislocated my wrist when I was a kid but that's all.","History of any illnesses, surgeries, or hospitalizations? 
+",I dislocated my wrist when I was a kid but that's all.,33.3,14.3,19.1,24.9,33.8,20.0
+110,110,"Doctor: When was your last menstrual period?
+Patient: Um, it was around June third of two thousand nine.
+Doctor: Okay so it says you have had an abortion recently?
+Patient: Yes I have, but I am not sure if it is finished, because I am still bleeding.
+Doctor: Okay.
+Patient: Do you want me to do a pregnancy test?
+Doctor: No I would have you see our Gynecology and Obstetrician.
+Patient: Okay.","When was your last menstrual period?
+ Okay so it says you have had an abortion recently?
+ Okay.
+ No I would have you see our Gynecology and Obstetrician.
+","Um, it was around June third of two thousand nine.
+ Yes I have, but I am not sure if it is finished, because I am still bleeding.
+ Do you want me to do a pregnancy test?
+ Okay.",29.5,30.9,64.7,53.4,36.3,62.3
+155,155,"Doctor: Good morning.  How are you feeling today? 
+Patient: I feel good, considering.  I slept well last night.  
+Doctor: Are you expensing any pain or discomfort? 
+Patient: No. I feel fine.","Good morning.  How are you feeling today? 
+ Are you expensing any pain or discomfort? 
+","I feel good, considering.  I slept well last night.  
+ No. I feel fine.",33.3,33.2,55.1,43.1,53.2,60.3
+103,103,"Doctor: How're you doing today? 
+Patient: Overall, pretty good. 
+Doctor: Any plans for the weekend? 
+Patient: No, not really. Just dog sitting my friend's golden. 
+Doctor: Gotcha. That's still nice. We used to have a golden when I was a kid. They're the sweetest dogs. 
+Patient: They are very sweet. 
+Doctor: Okay, so you're in for a follow up for your neck and back pain. 
+Patient: Yessir.  
+Doctor: Have you been going to pain management? 
+Patient: Yeah, I go once every week or so.  
+Doctor: How's your pain now? 
+Patient: Manageable, I guess.  
+Doctor: Is the pain still keeping you up at night? 
+Patient: Not like it used to.  
+Doctor: Good, great to hear.","How're you doing today? 
+ Any plans for the weekend? 
+ Gotcha. That's still nice. We used to have a golden when I was a kid. They're the sweetest dogs. 
+ Okay, so you're in for a follow up for your neck and back pain. 
+ Have you been going to pain management? 
+ How's your pain now? 
+ Is the pain still keeping you up at night? 
+ Good, great to hear.","Overall, pretty good. 
+ No, not really. Just dog sitting my friend's golden. 
+ They are very sweet. 
+ Yessir.  
+ Yeah, I go once every week or so.  
+ Manageable, I guess.  
+ Not like it used to.  
+",59.9,71.4,57.1,65.0,64.5,66.4
+57,57,"Doctor: How often are you vomiting?
+Patient: At least three times until my stomach is empty.
+Doctor: Can you think of something this is related to?
+Patient: Just when I eat raw carrots and celery.
+Doctor: Do you get belly pain?
+Patient: Yes.","How often are you vomiting?
+ Can you think of something this is related to?
+ Do you get belly pain?
+","At least three times until my stomach is empty.
+ Just when I eat raw carrots and celery.
+ Yes.",35.1,35.2,75.2,55.3,52.3,59.0
+69,69,"Doctor: How are feeling now after the treatment?
+Patient: I am feeling pretty fair, improving slowly.
+Doctor: Okay?
+Patient: Okay.","How are feeling now after the treatment?
+ Okay?
+","I am feeling pretty fair, improving slowly.
+ Okay.",42.3,49.7,58.5,58.1,58.8,61.8
+66,66,"Doctor: He had circumcision?
+Patient: Yes.
+Doctor: Do you remember the date?
+Patient: No I do not. But it should be in the chart.","He had circumcision?
+ Do you remember the date?
+","Yes.
+ No I do not. But it should be in the chart.",29.6,40.3,55.8,50.1,38.1,39.9
+145,145,"Doctor: Any changes to your diet? 
+Patient: I've been following the A D A diet online and maxing out at around eighteen hundred calories per day. 
+Doctor: How're you feeling since starting this diet? 
+Patient: A lot better actually. My blood sugar isn't as high as it used to be.","Any changes to your diet? 
+ How're you feeling since starting this diet? 
+","I've been following the A D A diet online and maxing out at around eighteen hundred calories per day. 
+ A lot better actually. My blood sugar isn't as high as it used to be.",38.4,37.0,48.0,56.4,47.7,57.9
+80,80,"Doctor: Anybody sick in family?
+Patient: No one.
+Doctor: How about any illnesses that run in your family?
+Patient: No, everyone is healthy.","Anybody sick in family?
+ How about any illnesses that run in your family?
+","No one.
+ No, everyone is healthy.",30.4,26.4,39.1,33.6,40.8,45.1
+15,15,"Doctor: Hello, miss. Today we're going to do a recheck for your hypertension. Sound good?
+Patient: Yes, of course. 
+Doctor: I just want to check to see if you have any symptoms that can possibly raise alarm.
+Patient: I have been coming to you for the last fifteen of my seventy eight years on Earth. I know how a follow up works.  
+Doctor: You are a seasoned veteran. Alright. So how is your chest? Any pains or tightness?
+Patient: No, luckily I do not have that. 
+Doctor: Is your heart beating alright? Do you feel like it is beating too fast or hard?
+Patient: No. I can't really feel my heart beat normally, but I guess that is better than feeling it beat constantly. 
+Doctor: You are correct. You shouldn't notice it. How is sleeping?
+Patient: Sleeping has been fine. I sleep through the night. 
+Doctor: Great. Any shortness of breath that causes you to wake up?
+Patient: None. I don't have shortness of breath at any other time of the day. 
+Doctor: Are your legs doing well? Any swelling?
+Patient: No. No swelling.","Hello, miss. Today we're going to do a recheck for your hypertension. Sound good?
+ I just want to check to see if you have any symptoms that can possibly raise alarm.
+ You are a seasoned veteran. Alright. So how is your chest? Any pains or tightness?
+ Is your heart beating alright? Do you feel like it is beating too fast or hard?
+ You are correct. You shouldn't notice it. How is sleeping?
+ Great. Any shortness of breath that causes you to wake up?
+ Are your legs doing well? Any swelling?
+","Yes, of course. 
+ I have been coming to you for the last fifteen of my seventy eight years on Earth. I know how a follow up works.  
+ No, luckily I do not have that. 
+ No. I can't really feel my heart beat normally, but I guess that is better than feeling it beat constantly. 
+ Sleeping has been fine. I sleep through the night. 
+ None. I don't have shortness of breath at any other time of the day. 
+ No. No swelling.",55.0,56.3,63.3,61.5,58.6,68.8
+31,31,"Doctor: Do you know anyone in your family whose had cancer? 
+Patient: No one that I know.","Do you know anyone in your family whose had cancer? 
+",No one that I know.,38.1,38.4,46.9,42.4,46.9,45.2
+44,44,"Doctor: What is going on with him?
+Guest_family: He is complaining of chest pain.","What is going on with him?
+Guest_family: He is complaining of chest pain.",,43.8,50.5,72.1,62.3,47.0,61.4
+47,47,"Guest_family: Hi, how are you?
+Doctor: I am well, how's the baby? I see that he is eight pounds and thirteen ounces, and he was born via…?
+Guest_family: Yes, C section. Yeah, he is he has never been hospitalized. He was born a week early.
+Doctor: Okay, I would like to ask you some questions about the pregnancy and other history. 
+Guest_family: Yes, sure go ahead.
+Doctor: Great, have you had any infections during pregnancy like G B S or S T D infections?
+Guest_family: No, I haven't, I only had thumb and toenail infections and we treated that with rubbing alcohol. We have a history of boils in the family, so I am not afraid of minor infections like this. 
+Doctor: Did you smoke during pregnancy? 
+Guest_family: Yes, I did, but stopped after five months.
+Doctor: Sir, have you had any S T D while she was pregnant?
+Guest_family_2: No, I was not diagnosed with anything unusual.
+Doctor: Great, so looks like you were discharged in forty eight hours and no more hospital stays for you.
+Guest_family: That is correct.","I am well, how's the baby? I see that he is eight pounds and thirteen ounces, and he was born via…?
+Guest_family: Yes, C section. Yeah, he is he has never been hospitalized. He was born a week early.
+ Okay, I would like to ask you some questions about the pregnancy and other history. 
+Guest_family: Yes, sure go ahead.
+ Great, have you had any infections during pregnancy like G B S or S T D infections?
+Guest_family: No, I haven't, I only had thumb and toenail infections and we treated that with rubbing alcohol. We have a history of boils in the family, so I am not afraid of minor infections like this. 
+ Did you smoke during pregnancy? 
+Guest_family: Yes, I did, but stopped after five months.
+ Sir, have you had any S T D while she was pregnant?
+Guest_family_2: No, I was not diagnosed with anything unusual.
+ Great, so looks like you were discharged in forty eight hours and no more hospital stays for you.
+Guest_family: That is correct.",,50.8,66.2,66.9,66.1,55.7,74.6
+34,34,"Doctor: How did your last visit go with the cardiologist? 
+Patient: Good.  
+Doctor: It looks like they diagnosed you with sick sinus syndrome. Do you have any questions about this new diagnosis? 
+Patient: No, she explained everything to me. I'm planning to follow-up with her in the next two weeks. 
+Doctor: Great. So it looks like your past medical history is the same? Nothing new other than the sick sinus syndrome.","How did your last visit go with the cardiologist? 
+ It looks like they diagnosed you with sick sinus syndrome. Do you have any questions about this new diagnosis? 
+ Great. So it looks like your past medical history is the same? Nothing new other than the sick sinus syndrome.","Good.  
+ No, she explained everything to me. I'm planning to follow-up with her in the next two weeks. 
+",37.8,52.5,64.3,58.0,49.8,64.8
+136,136,"Doctor: Hello, miss. How are you doing?
+Patient: I am fine. I just have a few questions about diet and exercise. I want to get my health in order. 
+Doctor: Okay, great. That's something we can handle today. Can you tell me about your familial history? This will help me see any possible ailments that we should watch out for. 
+Patient: Yes. So let's start with my mom. She died of congestive heart failure. 
+Doctor: How about your father? Your paperwork says both parents are deceased. 
+Patient: Yes, unfortunately. My dad died from myocardial infarction at fifty six years old. Not sure how old my mom was. 
+Doctor: Your family seems to have a history of ischemic cardiac disease. How are your siblings? The paperwork says you have brothers. 
+Patient: Yes. Two are alive and one has passed. He died from lymphoma. One brother has had two angioplasties and the other brother just has asthma.","Hello, miss. How are you doing?
+ Okay, great. That's something we can handle today. Can you tell me about your familial history? This will help me see any possible ailments that we should watch out for. 
+ How about your father? Your paperwork says both parents are deceased. 
+ Your family seems to have a history of ischemic cardiac disease. How are your siblings? The paperwork says you have brothers. 
+","I am fine. I just have a few questions about diet and exercise. I want to get my health in order. 
+ Yes. So let's start with my mom. She died of congestive heart failure. 
+ Yes, unfortunately. My dad died from myocardial infarction at fifty six years old. Not sure how old my mom was. 
+ Yes. Two are alive and one has passed. He died from lymphoma. One brother has had two angioplasties and the other brother just has asthma.",54.1,54.1,60.7,66.3,59.0,66.9
+56,56,"Doctor: So, do you smoke?
+Patient: No. 
+Doctor: How about alcohol? 
+Patient: I drink, but just normal. I don't have any alcohol problem.
+Doctor: Okay. So, no history of any drug or alcohol abuse, right?
+Patient: No, not at all.
+Doctor: Okay.","So, do you smoke?
+ How about alcohol? 
+ Okay. So, no history of any drug or alcohol abuse, right?
+ Okay.","No. 
+ I drink, but just normal. I don't have any alcohol problem.
+ No, not at all.
+",42.4,46.2,53.2,52.6,58.9,65.5
+74,74,"Doctor: What's going on?
+Patient: I am having a bellyache.
+Doctor: Since when?
+Patient: Oh, it's been a while now.
+Doctor: Okay.
+Patient: Yeah.","What's going on?
+ Since when?
+ Okay.
+","I am having a bellyache.
+ Oh, it's been a while now.
+ Yeah.",29.8,29.8,35.8,16.2,39.3,30.1
+39,39,"Doctor: Do you smoke or drink? 
+Patient: Never smoked a cigarette a day in my life. As for alcohol, I'll drink socially with friends and family.","Do you smoke or drink? 
+","Never smoked a cigarette a day in my life. As for alcohol, I'll drink socially with friends and family.",38.8,26.6,44.0,51.3,48.9,44.1
+105,105,"Doctor: Who lives with you, miss?
+Patient: I live with my boyfriend.
+Doctor: Do you smoke cigarettes?
+Patient: Yes, I do.
+Doctor: How about drugs?
+Patient: Sometimes, but I don't want to talk about it.
+Doctor: Okay. Anything else you want to talk about?
+Patient: Pardon?","Who lives with you, miss?
+ Do you smoke cigarettes?
+ How about drugs?
+ Okay. Anything else you want to talk about?
+","I live with my boyfriend.
+ Yes, I do.
+ Sometimes, but I don't want to talk about it.
+ Pardon?",31.1,42.5,53.1,42.7,42.1,47.6
+18,18,"Doctor: How old are you, sir? 
+Patient: I'm sixty five years old. 
+Doctor: Are you right handed or left handed? 
+Patient: I'm right handed. 
+Doctor: When was your last stroke? 
+Patient: Well, it was on January seventeenth. I had these episodes where I was like always so confused and looks like I lost everything. All my memory and everything. And then they did a scan. It was verified that I was having a stroke on the same day. 
+Doctor: Did they put you on some medications? 
+Patient: They gave me an anticonvulsant and aspirin. 
+Doctor: Are you taking them regularly? 
+Patient: There have a few times like one or two days that I forgot to take my, uh, dyphenhydramine, but even when I'm taking it regularly, I'm still having all those symptoms or forgetfulness, confusion, and everything. 
+Doctor: Do you feel anything else along with these episodes like a urine urgency, tendency to bite your tongue, headaches, any visual change, or your heart is beating very fast? Any kind of weakness or numbness or shortness of breath? 
+Patient: No nothing else, just the confusion and forgetfulness. 
+Doctor: How frequent are these episodes? 
+Patient: Well, they occur like two or three times in a week. Each one of the episodes lasts for like one or two minutes.","How old are you, sir? 
+ Are you right handed or left handed? 
+ When was your last stroke? 
+ Did they put you on some medications? 
+ Are you taking them regularly? 
+ Do you feel anything else along with these episodes like a urine urgency, tendency to bite your tongue, headaches, any visual change, or your heart is beating very fast? Any kind of weakness or numbness or shortness of breath? 
+ How frequent are these episodes? 
+","I'm sixty five years old. 
+ I'm right handed. 
+ Well, it was on January seventeenth. I had these episodes where I was like always so confused and looks like I lost everything. All my memory and everything. And then they did a scan. It was verified that I was having a stroke on the same day. 
+ They gave me an anticonvulsant and aspirin. 
+ There have a few times like one or two days that I forgot to take my, uh, dyphenhydramine, but even when I'm taking it regularly, I'm still having all those symptoms or forgetfulness, confusion, and everything. 
+ No nothing else, just the confusion and forgetfulness. 
+ Well, they occur like two or three times in a week. Each one of the episodes lasts for like one or two minutes.",32.9,47.0,57.2,43.8,46.5,53.5
+186,186,"Doctor: Hello Miss Jane, how are you?
+Patient: I am good, thank you for asking.
+Doctor: So, tell me what brings you here?
+Patient: I have so many issues and problems, where do I start?
+Doctor: Start by telling the one troubling you the most. 
+Patient: I have this pain in my toes on the right side and I also feel this numbness there.
+Doctor: Okay and do you feel any tingling sensation? Or feeling like your leg is giving away?
+Patient: Yes, I feel the tingling and sometimes. I feel like my leg has fallen asleep.
+Doctor: Hm, tell me about your pain. Is it mild, moderate, or severe?
+Patient: Well, I will say it's moderate. 
+Doctor: Would you define it as sharp shooting pain or dull kind of radiating pain? 
+Patient: Maybe sharp pain but I am not sure how to describe it. But it radiates up the leg.
+Doctor: Okay. How long have you had this problem?
+Patient: It's been there for almost one year but now it started to get worst. 
+Doctor: I see, does it get worse when you walk?
+Patient: No, mostly when I am in bed. And sometimes I feel it on my left toe as well.
+Doctor: It looks like you have paresthesia in the toes of your right foot and I feel your left toe also has the same problem.
+Patient: Yeah, I thought so. I read over the internet. But anyways, I am also having this shoulder pain on both sides, plus I am not able to sleep at night.
+Patient: I have high blood pressure and hypothyroidism. 
+Doctor: Well-
+Patient: Well, that's not it. I have thrombo-
+Doctor: Thrombocythemia.
+Patient: Yeah, that. 
+Doctor: How are your allergies by the way?
+Patient: I have no sinus allergies, thankfully.","Hello Miss Jane, how are you?
+ So, tell me what brings you here?
+ Start by telling the one troubling you the most. 
+ Okay and do you feel any tingling sensation? Or feeling like your leg is giving away?
+ Hm, tell me about your pain. Is it mild, moderate, or severe?
+ Would you define it as sharp shooting pain or dull kind of radiating pain? 
+ Okay. How long have you had this problem?
+ I see, does it get worse when you walk?
+ It looks like you have paresthesia in the toes of your right foot and I feel your left toe also has the same problem.
+ Well-
+ Thrombocythemia.
+ How are your allergies by the way?
+","I am good, thank you for asking.
+ I have so many issues and problems, where do I start?
+ I have this pain in my toes on the right side and I also feel this numbness there.
+ Yes, I feel the tingling and sometimes. I feel like my leg has fallen asleep.
+ Well, I will say it's moderate. 
+ Maybe sharp pain but I am not sure how to describe it. But it radiates up the leg.
+ It's been there for almost one year but now it started to get worst. 
+ No, mostly when I am in bed. And sometimes I feel it on my left toe as well.
+ Yeah, I thought so. I read over the internet. But anyways, I am also having this shoulder pain on both sides, plus I am not able to sleep at night.
+ I have high blood pressure and hypothyroidism. 
+ Well, that's not it. I have thrombo-
+ Yeah, that. 
+ I have no sinus allergies, thankfully.",48.6,63.5,64.5,55.2,58.9,68.9
+131,131,"Doctor: I see here that you've been feeling more short of breath. 
+Patient: Yes, for three days now. 
+Doctor: Is it worse when you exert yourself? 
+Patient: Um no, not really. I've had a terrible cough along with frequent headaches and chest congestion. I have also had a low fever. 
+Doctor: Did these symptoms start around the same time? 
+Patient: I think so. 
+Doctor: Where does your chest feel most congested? And how would you rate the pain right now? Ten being the worst.
+Patient: Both sides. I'd say it's at a three currently.
+Doctor: Does it send pain or numbness or tingling down your arms? How about any jaw pain as a result? 
+Patient: No, but it does get worse whenever I cough. 
+Doctor: Is this your first time experiencing this type of congestion? 
+Patient: Oh no. I had something like it about ten months ago.  
+Doctor: Did that improve on its own? 
+Patient: It would come and go, but over the past few days it's gotten worse. I am a strong German man so I held out coming to the doctor as long as I could. 
+Doctor: You are very strong! You are sixty nine though, so I don't think anyone would see it as weak if you came to the doctor more often.","I see here that you've been feeling more short of breath. 
+ Is it worse when you exert yourself? 
+ Did these symptoms start around the same time? 
+ Where does your chest feel most congested? And how would you rate the pain right now? Ten being the worst.
+ Does it send pain or numbness or tingling down your arms? How about any jaw pain as a result? 
+ Is this your first time experiencing this type of congestion? 
+ Did that improve on its own? 
+ You are very strong! You are sixty nine though, so I don't think anyone would see it as weak if you came to the doctor more often.","Yes, for three days now. 
+ Um no, not really. I've had a terrible cough along with frequent headaches and chest congestion. I have also had a low fever. 
+ I think so. 
+ Both sides. I'd say it's at a three currently.
+ No, but it does get worse whenever I cough. 
+ Oh no. I had something like it about ten months ago.  
+ It would come and go, but over the past few days it's gotten worse. I am a strong German man so I held out coming to the doctor as long as I could. 
+",49.4,50.0,51.4,46.4,46.2,53.9
