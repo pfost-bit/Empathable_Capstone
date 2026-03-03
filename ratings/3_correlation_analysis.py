@@ -61,6 +61,10 @@ def load_human_consensus(directory: str) -> pd.DataFrame:
     consensus = combined.groupby("conv_id")[SKILLS].mean()
     return consensus
 
+def load_human_consensus_from_file(path: str) -> pd.DataFrame:
+    df = pd.read_csv(path)
+    return df.groupby("conv_id")[SKILLS].mean()
+
 
 # ── Consensus aggregation ─────────────────────────────────────────────────────
 
