@@ -61,6 +61,12 @@ def load_from_dir(directory: str) -> pd.DataFrame:
         raise FileNotFoundError(f"No annotation CSVs found in {directory}")
     return pd.concat([load_rater_file(f) for f in files], ignore_index=True)
 
+def load_from_sheet_export(path: str) -> pd.DataFrame:
+    """Load the single CSV exported from Google Sheets."""
+    df = pd.read_csv(path)
+    # Sheet export has: timestamp, rater, conv_id, Respect, Support, ...
+    return df[["conv_id", "rater"] + SKILLS]  
+
 
 def pivot_raters(df: pd.DataFrame) -> dict[str, pd.DataFrame]:
     """
@@ -263,10 +269,14 @@ def main():
     parser.add_argument("--r1",  default=None, help="Annotation CSV for rater 1")
     parser.add_argument("--r2",  default=None, help="Annotation CSV for rater 2")
     parser.add_argument("--dir", default=None, help="Directory containing all rater CSVs")
-    args = parser.parse_args()
+    parser.add_argument("--file", default=None, help="Single CSV exported from Google Sheets")
 
-    if args.dir:
-        df = load_from_dir(args.dir)
+    args = parser.parse_args()
+  
+    if args.file:
+      df = load_from_sheet_export(args.file)
+    elif args.dir:
+      df = load_from_dir(args.dir)
     elif args.r1 and args.r2:
         df = pd.concat([load_rater_file(args.r1), load_rater_file(args.r2)], ignore_index=True)
     else:
