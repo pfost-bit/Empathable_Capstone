@@ -1,0 +1,7 @@
+Skill,Spearman ρ,p-value,Pearson r,MAE,Bias (M-H),Significant
+Respect,0.815,0.0,0.8,0.65,0.4,✅
+Support,0.854,0.0,0.829,0.6,0.4,✅
+Education,0.709,0.0,0.713,0.725,0.275,✅
+Planning,0.765,0.0,0.771,0.7,0.25,✅
+Engagement,0.793,0.0,0.777,0.575,0.025,✅
+Communication,0.775,0.0,0.767,0.675,0.325,✅
