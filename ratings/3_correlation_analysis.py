@@ -377,6 +377,7 @@ def main():
     parser = argparse.ArgumentParser(description="VPS Correlation Analysis")
     parser.add_argument("--model",  default=None, help="Model scores CSV (conv_id + 6 skill columns)")
     parser.add_argument("--human",  default=None, help="Directory with human annotation CSVs")
+    parser.add_argument("--human_file", default=None, help ="File with human annotations")
     parser.add_argument("--output", default="results", help="Output directory for plots and CSV")
     parser.add_argument("--demo",   action="store_true", help="Run with synthetic demo data")
     args = parser.parse_args()
@@ -393,3 +394,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
