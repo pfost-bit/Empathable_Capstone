@@ -387,11 +387,12 @@ def main():
         model_df, human_df = make_demo_data()
     else:
         model_df = load_model_scores(args.model)
-        human_df = load_human_consensus(args.human)
+        human_df = load_human_consensus(args.human_file)
 
     run_analysis(model_df, human_df, args.output)
 
 
 if __name__ == "__main__":
     main()
+
 
