@@ -1,4 +1,4 @@
-,id,text,doctor_text,patient_text,Respect,Support,Education,Planning,Engagement,Communication
+,conv_id,text,doctor_text,patient_text,Respect,Support,Education,Planning,Engagement,Communication
 152,152,"Doctor: Do you drink?
 Patient: Oh, I do but occasionally. Who doesn't like a nice cocktail! 
 Doctor: Okay. How about cigarettes, do you smoke?
@@ -1071,4 +1071,5 @@ Doctor: How have you been doing with keeping your hemoglobin levels between four
 Patient: I have been doing well. I have been able to keep it within that range.","Hi there! How are doing today? 
  How have you been doing with keeping your hemoglobin levels between four and five point six prercent? 
 ","I am doing well.  
+
  I have been doing well. I have been able to keep it within that range.",38.2,53.8,51.6,50.3,59.6,65.7
