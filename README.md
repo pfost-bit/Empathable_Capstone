@@ -210,32 +210,7 @@ The Financial Model translates VPS and Risk Factor scores into dollar-denominate
 
 ### Risk Quantification
 
-Each of the five risk categories maps to a quantified institutional cost:
 
-| Risk Factor | Financial Exposure Model | Reference Basis |
-|:------------|:-------------------------|:----------------|
-| SA — Reputation | Patient volume attrition × average revenue per patient | HCAHPS/Press Ganey linkage |
-| SB — Malpractice | Claim frequency × average settlement cost | Levinson et al. (1997); Hickson et al. (2002) |
-| SC — Medication Errors | Error rate × adverse event cost | Schillinger et al. (2003) |
-| SD — Poor Outcomes | Readmission rate × penalty cost (CMS) | Coleman et al. (2006); Jack et al. (2009) |
-| SE — Staff Burnout | Turnover rate × replacement cost | Provider burnout literature |
-
-### Composite Financial Risk Score
-
-```
-Financial_Risk = Σ [Risk_Score(i) × Cost_Weight(i)]   for i in {SA, SB, SC, SD, SE}
-```
-
-### ROI of Improvement
-
-Given a VPS improvement of `ΔVPS` for a clinician panel of size `N`:
-
-```
-Projected_Savings = ΔVPS × N × (Blended_Cost_per_VPS_Point)
-ROI = Projected_Savings / Cost_of_Intervention
-```
-
-This model allows institutions to prioritize coaching interventions based on financial impact, not just performance band alone.
 
 ---
 
@@ -245,7 +220,7 @@ The baseline pipeline establishes a reference VPS for each clinician prior to an
 
 ### Human Scoring
 
-A subset of interactions (N = 200) from the MTS-Dialog dataset were scored by trained human raters across all 32 sub-criteria on a [0, 1] scale. Inter-rater reliability was assessed using Cohen's κ and intraclass correlation coefficient (ICC).
+A subset of interactions (N = 50) from the MTS-Dialog dataset were scored by trained human raters across all 6 RESPEC framework. Inter-rater reliability was assessed using Cohen's κ and intraclass correlation coefficient (ICC).
 
 ### Comparison to VPS Scores
 
@@ -315,96 +290,20 @@ Each LoRA adapter produces sub-genre-adjusted sub-criteria scores. These are pas
 
 ### Video
 
-Interaction-level video summaries are generated to communicate scoring results to clinicians. Each video walkthrough covers:
 
-- The clinician's VPS for the interaction
-- Top 3 positive behaviors detected (with time-stamped dialogue anchors)
-- Top 2 improvement opportunities (linked to specific sub-criteria)
-- Animated skill radar showing performance across the 6 core dimensions
-
-**Output format:** MP4, generated programmatically using `matplotlib` animation + `ffmpeg`
 
 ### Images
 
-Static image outputs include:
 
-- **Framework Architecture Diagram** — layered flowchart of the full scoring pipeline (Layer 1 → Layer 4)
-- **Sub-Criteria Weight Heatmap** — visual breakdown of all 32 criteria by tier and weight
-- **Skill Profile Card** — per-clinician visual summary with skill bar charts and risk indicators
-- **Score Distribution Plot** — histogram of VPS scores across the full dataset, annotated by performance band
-
-**Output format:** PNG/SVG, generated via `matplotlib` and `seaborn`
 
 ---
 
 ## Visualizations
 
-### Alluvial (Sankey) Diagram
+### Alluvial  Diagram
 
-The alluvial diagram traces the flow from **sub-criteria** → **skills** → **VPS band** → **risk factors** for a given clinician or cohort.
 
-```python
-import plotly.graph_objects as go
 
-fig = go.Figure(go.Sankey(
-    node=dict(label=node_labels, color=node_colors),
-    link=dict(source=sources, target=targets, value=values)
-))
-```
-
-This visualization answers: *"Which specific behaviors are driving this clinician's risk profile?"* — connecting the behavioral root causes directly to their downstream consequences.
-
-**Use cases:**
-- Individual clinician feedback sessions
-- Department-level communication audits
-- Identification of systemic training gaps
-
-### Radar Chart
-
-The radar (spider) chart provides an at-a-glance visual of a clinician's **6 Core Skill scores** relative to peer benchmarks.
-
-```python
-import plotly.graph_objects as go
-
-fig = go.Figure()
-fig.add_trace(go.Scatterpolar(
-    r=clinician_scores,
-    theta=skill_labels,
-    fill='toself',
-    name='Clinician'
-))
-fig.add_trace(go.Scatterpolar(
-    r=benchmark_scores,
-    theta=skill_labels,
-    fill='toself',
-    name='Peer Benchmark'
-))
-```
-
-**Axes:** Respect · Support · Education · Planning · Engagement · Communication
-
-**Use cases:**
-- Comparing individual performance against cohort medians
-- Tracking skill development over time (multi-trace overlay)
-- LoRA sub-genre comparison (same clinician, different patient populations)
-
----
-
-## Dependencies
-
-```
-pandas
-numpy
-torch
-transformers
-matplotlib
-seaborn
-plotly
-tqdm
-scipy
-```
-
----
 
 ## Research Foundation
 
