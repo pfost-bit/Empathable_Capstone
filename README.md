@@ -55,9 +55,12 @@ The scoring architecture is layered:
 ## Repository Structure
 
 ```
-├── Empathable_VPS_Framework_01.ipynb   # Core scoring framework & engine
-├── Capstone_Working_Document.ipynb     # Main analysis pipeline
-└── README.md
+VPS
+ratings
+LoRA
+Visual Models
+Visualizations
+README.md
 ```
 
 ---
